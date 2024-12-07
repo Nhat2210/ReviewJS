@@ -1,2 +1,2 @@
 # ReviewJS
-prepare for interview
+prepared for interview
