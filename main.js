@@ -73,7 +73,7 @@ const countPositiveNumbers = (arr) => {
   }
   return count;
 };
-console.log(countPositiveNumbers([1, 2, 3, 4, 5, 6, 7, 8]));
+// console.log(countPositiveNumbers([1, 2, 3, 4, 5, 6, 7, 8]));
 
 //Viết hàm sumArray nhận vào một mảng số và trả về tổng của tất cả các số trong mảng đó.
 
@@ -158,7 +158,7 @@ const arrayToHTMLList = (arr) => {
   string += "</ul>";
   return string;
 };
-console.log(arrayToHTMLList(["a", "b", "c", "d", "e"]));
+// console.log(arrayToHTMLList(["a", "b", "c", "d", "e"]));
 
 //Viết một hàm linearSearch nhận vào hai tham số: một mảng số nguyên arr và một giá trị target cần tìm. Hàm này sẽ thực hiện tìm kiếm trong mảng: nếu tìm thấy target, trả về vị trí (index) của target trong mảng; nếu không tìm thấy, trả về -1.
 
@@ -229,4 +229,16 @@ const isPalindrome = (str) => {
   }
   return true;
 };
-console.log(isPalindrome("hello world"));
+// console.log(isPalindrome("hello world"));
+
+//cach 2
+const isPalindrome2 = (str) => {
+  const reverseString = str.split("").reverse().join("");
+  if (str === reverseString) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+console.log(isPalindrome2("oooo"));
